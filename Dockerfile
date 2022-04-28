@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt --target ./lib
+RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python"]
-
-CMD [ "app.py" ]
+CMD ["python3", "main.py"]

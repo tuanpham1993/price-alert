@@ -1,2 +1,6 @@
 binance-connector
 python-dotenv
+fastapi
+uvicorn
+requests
+python-telegram-bot
